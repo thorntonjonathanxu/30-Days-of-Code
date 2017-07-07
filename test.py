@@ -11,5 +11,9 @@ def listTest():
         i += 1
     print ('Count = ' + str(i))
 
+def modTest(n,mod):
+    result = mod % n
+    print(result)
 HelloWorld()
 listTest()
+modTest(3,6)
